@@ -40,11 +40,13 @@ git clone https://github.com/bishwamandas/Ur_Book_Genie.git
 cd Ur_Book_Genie
 ```
 
-Open the file in your browser:
+2. **Open the file in your browser:**
 
 "ur_book_genie.html"
   
 On Mac/Linux, use open instead of start.
+
+---
 
 💬 How to Use the Chatbot
 
@@ -60,6 +62,8 @@ Try messages like:
 
 The assistant will respond with genre-based recommendations.
 
+---
+
 🧠 Watson Assistant Integration
 This project uses an IBM Watson Assistant chatbot embedded with the following:
 
@@ -67,6 +71,8 @@ integrationID: "b6a40cec-e0e1-48bd-9e5f-19cb4fd8f119"
 region: "au-syd"
 serviceInstanceID: "fd7e1eb4-12cf-47a6-8baf-72f301f53419"
 You can replace these IDs with your own from IBM Cloud if you fork the project.
+
+---
 
 🙋‍♂️ Author
 Bishwaman Das
