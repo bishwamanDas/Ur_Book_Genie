@@ -36,15 +36,15 @@
 
 1. **Clone this repository:**
 ```bash
-git clone https://github.com/your-username/Ur_Book_Genie.git
+git clone https://github.com/bishwamandas/Ur_Book_Genie.git
 cd Ur_Book_Genie
 ```
 
 Open the file in your browser:
 
-  ur_book_genie.html
+"ur_book_genie.html"
   
-  On Mac/Linux, use open instead of start.
+On Mac/Linux, use open instead of start.
 
 💬 How to Use the Chatbot
 
