@@ -4,7 +4,7 @@
 
 ---
 
-## 🌟 Features
+🌟 Features
 
 - 🎨 Genre-based book gallery (Fantasy, Horror, Romance, etc.)
 - 🧠 AI chatbot using IBM Watson Assistant
@@ -14,7 +14,7 @@
 
 ---
 
-## 🛠 Tech Stack
+🛠 Tech Stack
 
 - HTML & CSS (frontend interface)
 - IBM Watson Assistant (AI chatbot)
@@ -23,36 +23,31 @@
 
 ---
 
-## 🚀 Getting Started
+🚀 Getting Started
 
-### 📁 Prerequisites
+📁 Prerequisites
 
 - Web browser (Chrome, Edge, Firefox, etc.)
 - Internet connection (to load Watson Assistant)
 
 ---
 
-## 💻 How to Run the Project
+💻 How to Run the Project
 
 1. **Clone this repository:**
 ```bash
 git clone https://github.com/your-username/Ur_Book_Genie.git
 cd Ur_Book_Genie
+```
+
 Open the file in your browser:
 
-If your file is named index.html, open it directly:
-
-bash
-Copy code
-start index.html
-Or if named ur_book_genie.html, open:
-
-bash
-Copy code
-start ur_book_genie.html
-On Mac/Linux, use open instead of start.
+  ur_book_genie.html
+  
+  On Mac/Linux, use open instead of start.
 
 💬 How to Use the Chatbot
+
 Click the Watson chat widget in the bottom right.
 
 Try messages like:
@@ -68,8 +63,6 @@ The assistant will respond with genre-based recommendations.
 🧠 Watson Assistant Integration
 This project uses an IBM Watson Assistant chatbot embedded with the following:
 
-js
-Copy code
 integrationID: "b6a40cec-e0e1-48bd-9e5f-19cb4fd8f119"
 region: "au-syd"
 serviceInstanceID: "fd7e1eb4-12cf-47a6-8baf-72f301f53419"
@@ -78,4 +71,4 @@ You can replace these IDs with your own from IBM Cloud if you fork the project.
 🙋‍♂️ Author
 Bishwaman Das
 B.Tech IT | IBM SkillsBuild Trainee
-GitHub • LinkedIn
+[Github](https://github.com/bishwamanDas) • [LinkedIn](www.linkedin.com/in/bishwamandas1102)
