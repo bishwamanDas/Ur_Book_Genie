@@ -1,4 +1,4 @@
-# 📚 Ur_Book_Genie – AI-Powered Book Recommendation Chatbot
+📚 Ur_Book_Genie – AI-Powered Book Recommendation Chatbot
 
 **Ur_Book_Genie** is a simple and interactive web application that integrates **IBM Watson Assistant** to help users discover books through natural, conversational queries. Built as part of an IBM SkillsBuild project, it offers a clean book gallery and live chatbot for personalized recommendations.
 
