@@ -42,7 +42,7 @@ cd Ur_Book_Genie
 
 2. **Open the file in your browser:**
 
-"ur_book_genie.html"
+  "ur_book_genie.html"
   
 On Mac/Linux, use open instead of start.
 
@@ -54,11 +54,11 @@ Click the Watson chat widget in the bottom right.
 
 Try messages like:
 
-“Recommend me a horror book”
+  “Recommend me a horror book”
 
-“I want to read a romantic novel”
+  “I want to read a romantic novel”
 
-“Any good sci-fi suggestions?”
+  “Any good sci-fi suggestions?”
 
 The assistant will respond with genre-based recommendations.
 
