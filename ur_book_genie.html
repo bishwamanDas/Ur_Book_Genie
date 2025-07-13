@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Meta tags for character encoding and responsive layout -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BookGenie</title>
+  
+  <!-- Title of the page -->
+  <title>BookGenie Book Gallery</title>
+
+  <!-- Inline CSS Styling -->
   <style>
+    /* General Body Styling */
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: #3257fdc2;
       margin: 0;
       padding: 0;
     }
+
+    /* Header Styling */
     header {
       background-color: #0a1fe4;
       color: rgb(248, 246, 246);
@@ -24,6 +32,8 @@
     header p {
       font-size: 20px;
     }
+
+    /* Section Styling */
     section {
       padding: 40px 20px;
       max-width: 1200px;
@@ -34,11 +44,15 @@
       margin-bottom: 20px;
       text-align: center;
     }
+
+    /* Grid gallery for books and authors */
     .gallery {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
       gap: 30px;
     }
+
+    /* Each book card styling */
     .book {
       background-color: rgb(99, 174, 173);
       padding: 20px;
@@ -65,6 +79,8 @@
       font-size: 16px;
       color: #de0917;
     }
+
+    /* Footer Styling */
     footer {
       text-align: center;
       padding: 20px;
@@ -73,15 +89,20 @@
     }
   </style>
 </head>
+
 <body>
+
+  <!-- Header with title and subheading -->
   <header>
     <h1>BookGenie Gallery 📚</h1>
     <p>Discover books & get recommendations using the chatbot</p>
   </header>
 
+  <!-- Section: Explore Books -->
   <section>
     <h2>📘 Explore Books</h2>
     <div class="gallery">
+      <!-- Each book is represented as a card -->
       <div class="book">
         <img src="https://covers.openlibrary.org/b/id/9870816-L.jpg" alt="The Alchemist">
         <h4>The Alchemist</h4>
@@ -105,6 +126,7 @@
     </div>
   </section>
 
+  <!-- Section: Featured Authors -->
   <section>
     <h2>🧙‍♂️ Featured Authors</h2>
     <div class="gallery">
@@ -114,7 +136,7 @@
         <p>Master of Horror & Suspense</p>
       </div>
       <div class="book">
-        <img src="https://imgs.search.brave.com/BADad0sVZViw_RzNvTeM9qOrN2nQCSMAUxgYgZiTMr4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI1/MDEwODYyOS9waG90/by9kYW4tYnJvd24t/YnVjaHByJUMzJUE0/c2VudGF0aW9uLWlu/ZmVybm8tZGVyLXVz/LWFtZXJpa2FuaXNj/aGUtc2NocmlmdHN0/ZWxsZXItZGFuLWJy/b3duLXByJUMzJUE0/c2VudGllcnQuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPTlM/MFJORTVQY0dyOXVZ/a3ZfTnFadVZDNnBn/czFMcEFwVjA5SVVp/RnB5UUk9" alt="Dan Brown">
+        <img src="https://imgs.search.brave.com/f9SqqKkx0CKlOYT5cxIPPg8aCjXZ3z8MuQwUJ0CsxqQ/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI1/MDEwODYyNC9waG90/by9kYW4tYnJvd24t/YnVjaHByJUMzJUE0/c2VudGF0aW9uLWlu/ZmVybm8tZGVyLXVz/LWFtZXJpa2FuaXNj/aGUtc2NocmlmdHN0/ZWxsZXItZGFuLWJy/b3duLXByJUMzJUE0/c2VudGllcnQuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPTB4/YlpkaHJOS2M3MlVs/VXJxVGY5aDhmWjJn/Z21Lb194UGR1WjJZ/c3FqRWs9" alt="Dan Brown">
         <h4>Dan Brown</h4>
         <p>Author of Thrillers & Mysteries</p>
       </div>
@@ -131,9 +153,11 @@
     </div>
   </section>
 
+  <!-- Section: Genres to Explore -->
   <section>
     <h2>🎨 Genres to Explore</h2>
     <div class="gallery">
+      <!-- Genre cards with name and short description -->
       <div class="book"><h4>Fantasy</h4><p>Magic, worlds & heroes</p></div>
       <div class="book"><h4>Thriller</h4><p>Suspense and fast-paced action</p></div>
       <div class="book"><h4>Romance</h4><p>Love stories & relationships</p></div>
@@ -143,23 +167,28 @@
     </div>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>Powered by BookGenie | Made with ❤️ using IBM Watson Assistant</p>
   </footer>
 
-  <!-- 🧠 Watson Assistant Chat Embed (Paste your actual code below) -->
+  <!-- IBM Watson Assistant Chat Widget Integration -->
   <script>
-  window.watsonAssistantChatOptions = {
-    integrationID: "b6a40cec-e0e1-48bd-9e5f-19cb4fd8f119", // The ID of this integration.
-    region: "au-syd", // The region your integration is hosted in.
-    serviceInstanceID: "fd7e1eb4-12cf-47a6-8baf-72f301f53419", // The ID of your service instance.
-    onLoad: async (instance) => { await instance.render(); }
-  };
-  setTimeout(function(){
-    const t=document.createElement('script');
-    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
-    document.head.appendChild(t);
-  });
-</script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "b6a40cec-e0e1-48bd-9e5f-19cb4fd8f119", // Unique Assistant Integration ID
+      region: "au-syd", // Region where the assistant is hosted
+      serviceInstanceID: "fd7e1eb4-12cf-47a6-8baf-72f301f53419", // Service instance ID
+      onLoad: async (instance) => { await instance.render(); } // Loads and displays the assistant
+    };
+
+    // Delays script loading to prevent blocking page render
+    setTimeout(function(){
+      const t = document.createElement('script');
+      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + 
+              (window.watsonAssistantChatOptions.clientVersion || 'latest') + 
+              "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
 </body>
 </html>
