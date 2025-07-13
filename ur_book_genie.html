@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BookGenie Book Gallery</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #3257fdc2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #0a1fe4;
+      color: rgb(248, 246, 246);
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 20px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 30px;
+    }
+    .book {
+      background-color: rgb(99, 174, 173);
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+    .book:hover {
+      transform: translateY(-5px);
+    }
+    .book img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .book h4 {
+      margin: 15px 0 5px;
+      font-size: 18px;
+    }
+    .book p {
+      margin: 0;
+      font-size: 16px;
+      color: #de0917;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #95c0f9;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BookGenie Gallery 📚</h1>
+    <p>Discover books & get recommendations using the chatbot</p>
+  </header>
+
+  <section>
+    <h2>📘 Explore Books</h2>
+    <div class="gallery">
+      <div class="book">
+        <img src="https://covers.openlibrary.org/b/id/9870816-L.jpg" alt="The Alchemist">
+        <h4>The Alchemist</h4>
+        <p>Paulo Coelho</p>
+      </div>
+      <div class="book">
+        <img src="https://covers.openlibrary.org/b/id/11153253-L.jpg" alt="The Da Vinci Code">
+        <h4>The Da Vinci Code</h4>
+        <p>Dan Brown</p>
+      </div>
+      <div class="book">
+        <img src="https://covers.openlibrary.org/b/id/10958305-L.jpg" alt="It">
+        <h4>It</h4>
+        <p>Stephen King</p>
+      </div>
+      <div class="book">
+        <img src="https://covers.openlibrary.org/b/id/10445213-L.jpg" alt="Harry Potter">
+        <h4>Harry Potter</h4>
+        <p>J.K. Rowling</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🧙‍♂️ Featured Authors</h2>
+    <div class="gallery">
+      <div class="book">
+        <img src="https://imgs.search.brave.com/-4xRni_H9Sml-b9EXnTRCiUad_vGSjDYzxmz6cs9PNs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGVw/aGVua2luZy5jb20v/aW1hZ2VzL3ByZXNz/L3N0ZXBoZW5raW5n/LXNtLmpwZw" alt="Stephen King">
+        <h4>Stephen King</h4>
+        <p>Master of Horror & Suspense</p>
+      </div>
+      <div class="book">
+        <img src="https://imgs.search.brave.com/BADad0sVZViw_RzNvTeM9qOrN2nQCSMAUxgYgZiTMr4/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTI1/MDEwODYyOS9waG90/by9kYW4tYnJvd24t/YnVjaHByJUMzJUE0/c2VudGF0aW9uLWlu/ZmVybm8tZGVyLXVz/LWFtZXJpa2FuaXNj/aGUtc2NocmlmdHN0/ZWxsZXItZGFuLWJy/b3duLXByJUMzJUE0/c2VudGllcnQuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPTlM/MFJORTVQY0dyOXVZ/a3ZfTnFadVZDNnBn/czFMcEFwVjA5SVVp/RnB5UUk9" alt="Dan Brown">
+        <h4>Dan Brown</h4>
+        <p>Author of Thrillers & Mysteries</p>
+      </div>
+      <div class="book">
+        <img src="https://imgs.search.brave.com/vuGwEjSp6uho4_8au-GkPS9k5WhSTLtGbtNED0ZhGRk/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/YmFiZWxpby5jb20v/dXNlcnMvQVZUX1Bh/dWxvLUNvZWxob18z/NTQyLmpwZWc" alt="Paulo Coelho">
+        <h4>Paulo Coelho</h4>
+        <p>Inspirational Fiction Writer</p>
+      </div>
+      <div class="book">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/J._K._Rowling_2010.jpg" alt="JK Rowling">
+        <h4>J.K. Rowling</h4>
+        <p>Creator of Harry Potter</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🎨 Genres to Explore</h2>
+    <div class="gallery">
+      <div class="book"><h4>Fantasy</h4><p>Magic, worlds & heroes</p></div>
+      <div class="book"><h4>Thriller</h4><p>Suspense and fast-paced action</p></div>
+      <div class="book"><h4>Romance</h4><p>Love stories & relationships</p></div>
+      <div class="book"><h4>Science Fiction</h4><p>Future tech and imagination</p></div>
+      <div class="book"><h4>Horror</h4><p>Chilling and supernatural tales</p></div>
+      <div class="book"><h4>Historical</h4><p>Stories set in the past</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Powered by BookGenie | Made with ❤️ using IBM Watson Assistant</p>
+  </footer>
+
+  <!-- 🧠 Watson Assistant Chat Embed (Paste your actual code below) -->
+  <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "b6a40cec-e0e1-48bd-9e5f-19cb4fd8f119", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "fd7e1eb4-12cf-47a6-8baf-72f301f53419", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
