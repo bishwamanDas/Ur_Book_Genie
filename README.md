@@ -1,2 +1,1 @@
-# Ur_Book_Genie
-Ur_Book_Genie is a smart book recommendation chatbot developed using IBM Watson Assistant. It enables users to discover books through conversational queries, supporting both genre-based and personalized suggestions.
+Ur_Book_Genie is an AI-powered book recommendation chatbot developed using IBM Watson Assistant. It helps users discover books through natural, conversational queries — whether you're looking for horror, romance, or sci-fi, the bot understands and recommends accordingly.
